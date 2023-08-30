@@ -11,6 +11,8 @@ services:
       AUTH_USERS: $AUTH_USERS
       DATABASE_URI: $DATABASE_URI
       LOG_CHANNEL: $LOG_CHANNEL
+      BUILD COMMAND: $BUILD COMMAND
+      START COMMAND: $START COMMAND
     ports:
       - 8080
     resources:
